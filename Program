@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+//Nush nici eu ce naibi sunt astea!!
+int s (int x, int y) {
+    return y * (y + 1) / 2 - (x - 1) * x / 2;
+}
+
+int main()
+{
+    int a;
+    int b;
+    int c;
+
+    cout<<"Valoarea lui A??"<<endl;
+    cin>>a;
+
+    cout<<"Valoarea lui B??"<<endl;
+    cin>>b;
+
+    cout<<"Valoarea lui C??"<<endl;
+    cin>>c;
+
+    cout<<"Rezultatele:"<<endl;
+    cout<<s(a, b)<<" "<<s(b, c)<<" "<<s(a, c)<<endl;
+
+    return 0;
+}
